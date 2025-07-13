@@ -1,0 +1,12 @@
+{    
+    "emmet.includeLanguages": {
+        "django-html": "html",
+    },
+
+    "files.associations": {
+        "django-html": "html", // batisteo.vscode-django
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+}
